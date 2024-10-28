@@ -1,0 +1,31 @@
+/* src/components/Vibe.css */
+
+.vibe {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.vibe h2 {
+  color: #ff0;
+  text-align: center;
+}
+
+.vibe-gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.vibe-photo {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  border: 2px solid #f00;
+  transition: transform 0.3s;
+}
+
+.vibe-photo:hover {
+  transform: scale(1.1);
+}

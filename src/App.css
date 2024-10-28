@@ -1,0 +1,44 @@
+/* src/App.css */
+
+body {
+  background-color: #111;
+  color: #f00;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Impact', sans-serif;
+  text-transform: uppercase;
+  color: #f00;
+}
+
+a {
+  color: #0f0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .header nav a {
+    font-size: 1rem;
+  }
+  .menu, .vibe, .contact {
+    padding: 10px;
+  }
+  .vibe-gallery {
+    flex-direction: column;
+  }
+}

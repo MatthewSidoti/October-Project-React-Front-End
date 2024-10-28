@@ -1,0 +1,26 @@
+/* src/components/Header.css */
+
+.header {
+  background-color: #222;
+  color: #f00;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header nav a {
+  color: #0f0;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #ff0;
+}

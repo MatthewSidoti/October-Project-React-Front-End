@@ -1,0 +1,48 @@
+/* src/components/Contact.css */
+
+.contact {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.contact h2 {
+  color: #ff0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  color: #f00;
+  font-size: 1rem;
+}
+
+form input, form textarea {
+  background-color: #222;
+  color: #f00;
+  border: 2px solid #0f0;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+form button {
+  background-color: #0f0;
+  color: #111;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #ff0;
+}

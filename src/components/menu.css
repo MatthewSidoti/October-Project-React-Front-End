@@ -1,0 +1,28 @@
+/* src/components/Menu.css */
+
+.menu {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.menu h2 {
+  color: #ff0;
+  text-align: center;
+}
+
+.menu-category {
+  margin: 20px 0;
+}
+
+.menu-category h3 {
+  color: #0f0;
+  margin-bottom: 10px;
+}
+
+.menu-category ul li {
+  color: #f00;
+  font-size: 1.1rem;
+  padding: 4px 0;
+}
