@@ -1,21 +1,15 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header.jsx';
-import Menu from './components/Menu.jsx';
-import Vibe from './components/Vibe.jsx';
-import Contact from './components/Contact.jsx';
-
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePage from "./components/HomePage"; // Ensure this path is correct
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Menu />
-        <Vibe />
-        <Contact />
-      </main>
-    </div>
+    <Router>
+      <Routes>
+        {/* Root route displays the HomePage component */}
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
   );
 }
 
