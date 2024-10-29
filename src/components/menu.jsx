@@ -1,6 +1,5 @@
-// src/components/Menu.js
 import React from 'react';
-import './Menu.css';
+import './styles/Menu.css';
 
 const menuItems = [
   { category: "Starter Revolt", items: ["Zesty Jalapeño Poppers", "Chaotic Nachos"] },

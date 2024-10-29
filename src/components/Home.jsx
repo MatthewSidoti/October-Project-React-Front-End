@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css";
+import "./styles/Home.css";
 
 function HomePage() {
   return (
@@ -10,9 +10,11 @@ function HomePage() {
         alt="Anarchy Bites Logo"
         className="logo"
       />
-      <button><Link to="/explore" className="explore-button">
-        <h1>Let's Eat!</h1>
-      </Link></button>
+      <button>
+        <Link to="/preview" className="explore-button">
+          <h1>Let's Eat!</h1>
+        </Link>
+      </button>
     </div>
   );
 }
