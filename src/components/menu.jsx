@@ -1,15 +1,16 @@
 import React from 'react';
 import './styles/Menu.css';
 
-const menuItems = [
+
+
+function Menu() {
+  const menuItems = [
   { category: "Starter Revolt", items: ["Zesty Jalapeño Poppers", "Chaotic Nachos"] },
   { category: "Main Distortions", items: ["Spiked 'Slam' Burgers", "Riot Ribs", "Vegan Chaos Wraps"] },
   { category: "Sid’s Sides", items: ["Anarchy Fries", "Rebel Slaw", "Punked-Out Mac ‘n Cheese"] },
   { category: "Dessert Breakdown", items: ["DIY Sundae Smash", "Blackout Brownies"] },
   { category: "Drinks", items: ["Rebellion Red Ale", "Power Punk Smoothie", "Rock ‘n Cola"] },
 ];
-
-function Menu() {
   return (
     <section id="menu" className="menu">
       <h2>The Bites</h2>
