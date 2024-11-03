@@ -1,4 +1,4 @@
-// src/components/Contact.js
+
 import React, { useState } from 'react';
 import './styles/Contact.css';
 
@@ -16,7 +16,7 @@ function Contact() {
     console.log('Submitted:', formData);
     setSubmissionStatus('Your message has been sent!');
 
-    // Clear the form after submission
+    
     setFormData({ name: '', email: '', message: '' });
   };
 
