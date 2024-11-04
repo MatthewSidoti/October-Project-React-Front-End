@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Vibe.css';
+import '../styles/Vibe.css';
 
 function Vibe() {
   return (

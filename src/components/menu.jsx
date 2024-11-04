@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Menu.css';
+import '../styles/Menu.css';
 
 
 
