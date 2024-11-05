@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 function Preview() {
   return (
-    <div>
+    <div className="app-container">
       <Header />
       <Menu />
       <Vibe />

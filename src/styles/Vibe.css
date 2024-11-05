@@ -15,8 +15,12 @@
 
 .vibe-gallery {
   display: flex;
-  gap: 10px;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .vibe-photo {
@@ -31,14 +35,6 @@
   transform: scale(1.1);
 }
 
-
-.vibe-gallery {
-  display: flex;
-  justify-content: space-around; /* Centers the images */
-  flex-wrap: wrap; /* Allows images to wrap on smaller screens */
-  gap: 15px; /* Adds space between images */
-  padding: 20px;
-}
 
 .vibe-gallery img {
   width: 150px; /* Adjust the size as needed */
