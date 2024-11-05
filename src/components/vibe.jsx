@@ -1,16 +1,14 @@
 import React from 'react';
 import '../styles/Vibe.css';
 
+
 function Vibe() {
   return (
-    <section id="vibe" className="vibe">
-      <h2>The Vibe</h2>
-      <div className="vibe-gallery">
-        <div className="vibe-photo vibe-photo-1"></div>
-        <div className="vibe-photo vibe-photo-2"></div>
-        <div className="vibe-photo vibe-photo-3"></div>
-      </div>
-    </section>
+    <div className="vibe-gallery">
+      <img src="https://i.ibb.co/sWss5n4/rest-vibes-1.jpg" alt="rest-vibes-1" />
+      <img src="https://i.ibb.co/MkVD9zC/rest-vibes-2.jpg" alt="rest-vibes-2" />
+      <img src="https://i.ibb.co/qg4TP5B/rest-vibes-4.jpg" alt="rest-vibes-4" />
+    </div>
   );
 }
 

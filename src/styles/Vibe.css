@@ -1,5 +1,6 @@
 /* src/components/Vibe.css */
 
+
 .vibe {
   background-color: #222;
   padding: 20px;
@@ -28,4 +29,20 @@
 
 .vibe-photo:hover {
   transform: scale(1.1);
+}
+
+
+.vibe-gallery {
+  display: flex;
+  justify-content: space-around; /* Centers the images */
+  flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+  gap: 15px; /* Adds space between images */
+  padding: 20px;
+}
+
+.vibe-gallery img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
